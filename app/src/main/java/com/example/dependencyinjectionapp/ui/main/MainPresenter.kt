@@ -23,7 +23,7 @@ class MainPresenter @Inject constructor() : IMainPresenter.Presenter {
     }
 
     override fun loadData() {
-        view?.displayCount(count)
+        view.displayCount(count)
     }
 
 }
